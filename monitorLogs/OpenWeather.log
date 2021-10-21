@@ -1,0 +1,197 @@
+[INFO ] [2021-10-21 17:01:41,957] Pre-condition - Step 01: Open browser 'chrome' and navigate to 'https://openweathermap.org/'
+[INFO ] [2021-10-21 17:01:49,921] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 17:01:50,060] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 17:01:56,005] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 17:01:56,058] Post-condition - Close browserchrome
+[INFO ] [2021-10-21 17:01:56,058] OS name = windows 10
+[INFO ] [2021-10-21 20:12:09,825] OS name = windows 10
+[INFO ] [2021-10-21 20:12:09,826] 
+[INFO ] [2021-10-21 20:12:09,850] Post-condition - Close browser
+[INFO ] [2021-10-21 20:12:09,850] OS name = windows 10
+[INFO ] [2021-10-21 20:12:09,852] 
+[INFO ] [2021-10-21 20:22:17,525] OS name = windows 10
+[INFO ] [2021-10-21 20:22:17,525] 
+[INFO ] [2021-10-21 20:22:17,543] Post-condition - Close browser
+[INFO ] [2021-10-21 20:22:17,543] OS name = windows 10
+[INFO ] [2021-10-21 20:22:17,543] 
+[INFO ] [2021-10-21 20:24:08,630] OS name = windows 10
+[INFO ] [2021-10-21 20:24:08,630] 
+[INFO ] [2021-10-21 20:24:08,648] Post-condition - Close browser
+[INFO ] [2021-10-21 20:25:27,762] Pre-condition - Step 01: Open browserand navigate tohttps://openweathermap.org/
+[INFO ] [2021-10-21 20:25:36,148] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 20:25:36,306] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 20:25:38,576] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 20:25:38,653] Post-condition - Close browser
+[INFO ] [2021-10-21 20:25:38,653] OS name = windows 10
+[INFO ] [2021-10-21 20:36:00,351] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 20:36:07,955] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 20:36:08,138] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 20:36:10,739] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 20:36:10,830] Post-condition - Close browser
+[INFO ] [2021-10-21 20:36:10,830] OS name = windows 10
+[INFO ] [2021-10-21 20:47:05,575] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 20:47:13,453] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 20:47:13,617] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 20:47:16,045] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 20:47:16,121] Post-condition - Close browser
+[INFO ] [2021-10-21 20:47:16,121] OS name = windows 10
+[INFO ] [2021-10-21 20:56:33,678] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 20:56:42,572] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 20:56:42,870] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 20:56:45,381] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 20:56:45,470] Post-condition - Close browser
+[INFO ] [2021-10-21 20:56:45,471] OS name = windows 10
+[INFO ] [2021-10-21 20:58:03,882] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 20:58:13,246] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 20:58:13,399] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 20:58:16,359] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 20:58:16,434] Post-condition - Close browser
+[INFO ] [2021-10-21 20:58:16,435] OS name = windows 10
+[INFO ] [2021-10-21 21:12:28,153] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 21:12:36,363] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 21:12:36,521] Post-condition - Close browser
+[INFO ] [2021-10-21 21:12:36,521] OS name = windows 10
+[INFO ] [2021-10-21 21:17:14,278] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 21:17:22,349] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 21:17:22,915] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 21:17:24,772] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 21:17:24,851] Post-condition - Close browser
+[INFO ] [2021-10-21 21:17:24,851] OS name = windows 10
+[INFO ] [2021-10-21 21:25:08,149] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 21:25:15,661] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 21:25:15,791] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 21:25:18,056] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 21:25:18,128] Post-condition - Close browser
+[INFO ] [2021-10-21 21:25:18,128] OS name = windows 10
+[INFO ] [2021-10-21 21:50:26,731] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 21:50:35,230] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 21:50:35,376] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 21:50:37,434] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 21:50:37,510] Post-condition - Close browser
+[INFO ] [2021-10-21 21:50:37,511] OS name = windows 10
+[INFO ] [2021-10-21 22:04:47,804] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:04:55,490] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:04:55,647] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:04:58,011] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:05:18,080] Post-condition - Close browser
+[INFO ] [2021-10-21 22:05:18,081] OS name = windows 10
+[INFO ] [2021-10-21 22:07:37,765] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:07:45,617] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:07:45,775] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:07:51,913] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:07:51,995] Post-condition - Close browser
+[INFO ] [2021-10-21 22:07:51,996] OS name = windows 10
+[INFO ] [2021-10-21 22:07:53,513] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:08:00,803] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:08:00,934] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:08:02,732] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:08:02,785] Post-condition - Close browser
+[INFO ] [2021-10-21 22:08:02,785] OS name = windows 10
+[INFO ] [2021-10-21 22:15:41,339] OS name = windows 10
+[INFO ] [2021-10-21 22:15:41,341] 
+[INFO ] [2021-10-21 22:15:41,363] Post-condition - Close browser
+[INFO ] [2021-10-21 22:15:41,364] OS name = windows 10
+[INFO ] [2021-10-21 22:15:41,364] 
+[INFO ] [2021-10-21 22:15:41,389] Post-condition - Close browser
+[INFO ] [2021-10-21 22:15:41,389] OS name = windows 10
+[INFO ] [2021-10-21 22:15:41,390] 
+[INFO ] [2021-10-21 22:18:00,418] OS name = windows 10
+[INFO ] [2021-10-21 22:18:00,418] 
+[INFO ] [2021-10-21 22:18:00,437] Post-condition - Close browser
+[INFO ] [2021-10-21 22:18:00,459] Post-condition - Close browser
+[INFO ] [2021-10-21 22:19:18,040] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:19:26,262] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:19:26,416] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:19:28,563] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:19:28,645] Post-condition - Close browser
+[INFO ] [2021-10-21 22:19:28,671] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:19:35,199] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:19:35,358] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:19:37,767] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:19:37,841] Post-condition - Close browser
+[INFO ] [2021-10-21 22:22:43,489] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:22:55,756] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:22:56,055] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:22:56,491] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:22:57,982] Post-condition - Close browser
+[INFO ] [2021-10-21 22:22:58,011] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:23:06,145] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:23:06,308] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:23:08,691] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:23:08,965] Post-condition - Close browser
+[INFO ] [2021-10-21 22:28:58,573] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:29:11,298] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:29:11,547] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:29:11,900] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:29:13,275]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 22:29:13,284] Post-condition - Close browser
+[INFO ] [2021-10-21 22:29:13,311] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 22:29:20,337] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 22:29:20,474] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 22:29:22,786] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 22:29:23,027]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 22:29:23,028] Post-condition - Close browser
+[INFO ] [2021-10-21 22:33:36,158] OS name = windows 10
+[INFO ] [2021-10-21 22:33:36,159] 
+[INFO ] [2021-10-21 22:33:36,183] Post-condition - Close browser
+[INFO ] [2021-10-21 22:33:36,183] OS name = windows 10
+[INFO ] [2021-10-21 22:33:36,183] 
+[INFO ] [2021-10-21 22:33:36,210] Post-condition - Close browser
+[INFO ] [2021-10-21 22:33:36,210] OS name = windows 10
+[INFO ] [2021-10-21 22:33:36,210] 
+[INFO ] [2021-10-21 22:34:48,460] OS name = windows 10
+[INFO ] [2021-10-21 22:34:48,461] 
+[INFO ] [2021-10-21 22:34:48,481] Post-condition - Close browser
+[INFO ] [2021-10-21 22:34:48,482] OS name = windows 10
+[INFO ] [2021-10-21 22:34:48,482] 
+[INFO ] [2021-10-21 22:34:48,506] Post-condition - Close browser
+[INFO ] [2021-10-21 22:34:48,506] OS name = windows 10
+[INFO ] [2021-10-21 22:34:48,506] 
+[INFO ] [2021-10-21 22:36:05,070] OS name = windows 10
+[INFO ] [2021-10-21 22:36:05,071] 
+[INFO ] [2021-10-21 22:36:05,090] Post-condition - Close browser
+[INFO ] [2021-10-21 22:36:05,090] OS name = windows 10
+[INFO ] [2021-10-21 22:36:05,091] 
+[INFO ] [2021-10-21 22:36:05,115] Post-condition - Close browser
+[INFO ] [2021-10-21 22:36:05,115] OS name = windows 10
+[INFO ] [2021-10-21 22:36:05,115] 
+[INFO ] [2021-10-21 23:11:05,803] Post-condition - Close browser
+[INFO ] [2021-10-21 23:11:05,833] Post-condition - Close browser
+[INFO ] [2021-10-21 23:23:15,850] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 23:23:28,563] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 23:23:28,771] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 23:23:29,019] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 23:23:32,433]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 23:23:32,437] Post-condition - Close browser
+[INFO ] [2021-10-21 23:23:33,696] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 23:23:40,369] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 23:23:40,479] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 23:23:42,337] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 23:23:42,665]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 23:23:42,666] Post-condition - Close browser
+[INFO ] [2021-10-21 23:29:05,497] Post-condition - Close browser
+[INFO ] [2021-10-21 23:29:05,522] Post-condition - Close browser
+[INFO ] [2021-10-21 23:30:05,808] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 23:30:18,102] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 23:30:18,304] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 23:30:18,644] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 23:30:19,931]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 23:30:19,935] Post-condition - Close browser
+[INFO ] [2021-10-21 23:30:21,102] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 23:30:27,738] Search - Step 01: Verify search box is display
+[INFO ] [2021-10-21 23:30:27,842] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 23:30:29,999] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' should display
+[INFO ] [2021-10-21 23:30:30,071]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 23:30:30,072] Post-condition - Close browser
+[INFO ] [2021-10-21 23:37:51,442] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 23:38:02,644] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-21 23:38:02,999] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 23:38:03,236] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-21 23:38:04,485]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 23:38:04,487] Post-condition - Close browser
+[INFO ] [2021-10-21 23:38:05,623] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-21 23:38:12,628] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-21 23:38:12,733] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-21 23:38:14,736] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-21 23:38:14,798]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-21 23:38:14,799] Post-condition - Close browser

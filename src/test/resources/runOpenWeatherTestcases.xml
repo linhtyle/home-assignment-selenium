@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Open Weather">
+    <parameter name="url" value="https://openweathermap.org/"/>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="reportConfig.MethodListener"/>
+    </listeners>
+
+    <test name="Run on Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="openweather.user.User_Search"/>
+        </classes>
+    </test>
+
+    <test name="Run on Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="openweather.user.User_Search"/>
+        </classes>
+    </test>
+
+<!--    <test name="Run on Safari">-->
+<!--        <parameter name="browser" value="safari"/>-->
+<!--        <classes>-->
+<!--            <class name="openweather.user.User_Search"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

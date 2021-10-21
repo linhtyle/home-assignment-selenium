@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Open Weather]">
+  <parameter name="url" value="https://openweathermap.org/"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="reportConfig.MethodListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="openweather.user.User_Search">
+        <methods>
+          <include name="cleanDriverInstance"/>
+          <include name="cleanBrowser"/>
+          <include name="Search"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- openweather.user.User_Search -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+  <test thread-count="5" verbose="0" name="Run on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="openweather.user.User_Search">
+        <methods>
+          <include name="cleanDriverInstance"/>
+          <include name="cleanBrowser"/>
+          <include name="Search"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- openweather.user.User_Search -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [Open Weather] -->

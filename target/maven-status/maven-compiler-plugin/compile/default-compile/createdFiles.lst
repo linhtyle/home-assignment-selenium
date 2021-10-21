@@ -1,0 +1,10 @@
+commons\AbstractPage.class
+commons\GlobalConstants.class
+reportConfig\VerificationFailures.class
+pageObject\HomePageObject.class
+commons\BaseTest$BROWSER.class
+reportConfig\TestNGAppender.class
+commons\BaseTest.class
+pageObject\UserPageGeneratorManager.class
+pageUIs\HomePageUI.class
+reportConfig\MethodListener.class
