@@ -5,7 +5,6 @@
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-        <listener class-name="reportConfig.MethodListener"/>
     </listeners>
 
     <test name="Run on Firefox">

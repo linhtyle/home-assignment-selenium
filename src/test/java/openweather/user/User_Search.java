@@ -2,6 +2,7 @@ package openweather.user;
 
 import commons.BaseTest;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -20,13 +21,15 @@ public class User_Search extends BaseTest {
     }
 
     @Test
-    public void Search() {
+    public void search() {
         log.info("Search - Step 01: Verify search box is displayed");
-        verifyTrue(homePage.isSearchTextBoxDisplayed());
+        Assert.assertTrue(homePage.isSearchTextBoxDisplayed());
+
         log.info("Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword");
         homePage.enterToSearchTextBox("Ho Chi Minh city");
+
         log.info("Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed");
-        verifyEquals(homePage.getExpectedResultDisplayed(), "Thanh pho Ho Chi Minh, VN");
+        Assert.assertEquals(homePage.getExpectedResultDisplayed(), "Thanh pho Ho Chi Minh, VN");
     }
 
     @AfterClass(alwaysRun = true)

@@ -1,12 +1,10 @@
-[INFO ] [2021-10-22 18:48:50,533] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
-[INFO ] [2021-10-22 18:49:00,931] Search - Step 01: Verify search box is displayed
-[INFO ] [2021-10-22 18:49:01,127] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
-[INFO ] [2021-10-22 18:49:01,458] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
-[INFO ] [2021-10-22 18:49:02,887]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-10-22 18:49:02,889] Post-condition - Close browser
-[INFO ] [2021-10-22 18:49:04,892] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
-[INFO ] [2021-10-22 18:49:10,933] Search - Step 01: Verify search box is displayed
-[INFO ] [2021-10-22 18:49:11,049] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
-[INFO ] [2021-10-22 18:49:13,395] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
-[INFO ] [2021-10-22 18:49:13,451]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-10-22 18:49:13,452] Post-condition - Close browser
+[INFO ] [2021-10-22 20:38:59,466] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-22 20:39:10,108] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-22 20:39:10,290] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-22 20:39:10,540] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-22 20:39:11,858] Post-condition - Close browser
+[INFO ] [2021-10-22 20:39:13,112] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-22 20:39:21,248] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-22 20:39:21,379] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-22 20:39:23,513] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-22 20:39:23,586] Post-condition - Close browser

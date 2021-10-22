@@ -10,7 +10,6 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
-import reportConfig.VerificationFailures;
 
 import java.util.concurrent.TimeUnit;
 
@@ -49,44 +48,6 @@ public class BaseTest {
 	
 	public WebDriver getWebDriver() {
 		return this.driver;
-	}
-
-	protected boolean verifyTrue(boolean condition) {
-		boolean pass = true;
-		try {
-			Assert.assertTrue(condition);
-		} catch (Throwable e) {
-			pass = false;
-			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
-			Reporter.getCurrentTestResult().setThrowable(e);
-		}
-		return pass;
-	}
-
-	protected boolean verifyFalse(boolean condition) {
-		boolean pass = true;
-		try {
-			Assert.assertFalse(condition);
-		} catch (Throwable e) {
-			pass = false;
-			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
-			Reporter.getCurrentTestResult().setThrowable(e);
-		}
-		return pass;
-	}
-
-	protected boolean verifyEquals(Object actual, Object expected) {
-		boolean pass = true;
-		try {
-			Assert.assertEquals(actual, expected);
-			log.info(" -------------------------- PASSED -------------------------- ");
-		} catch (Throwable e) {
-			pass = false;
-			log.info(" -------------------------- FAILED -------------------------- ");
-			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
-			Reporter.getCurrentTestResult().setThrowable(e);
-		}
-		return pass;
 	}
 
 	@BeforeSuite

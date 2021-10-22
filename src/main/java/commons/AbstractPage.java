@@ -41,5 +41,5 @@ public class AbstractPage {
     }
 
     private WebDriverWait explicitWait;
-    private final long longTimeout = GlobalConstants.LONG_TIMEOUT;
+    private static final long longTimeout = GlobalConstants.LONG_TIMEOUT;
 }
