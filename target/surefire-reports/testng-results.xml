@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:37:51,442] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+      <![CDATA[[INFO ] [2021-10-22 18:48:50,533] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:02,644] Search - Step 01: Verify search box is displayed
+      <![CDATA[[INFO ] [2021-10-22 18:49:00,931] Search - Step 01: Verify search box is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:02,999] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+      <![CDATA[[INFO ] [2021-10-22 18:49:01,127] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:03,236] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+      <![CDATA[[INFO ] [2021-10-22 18:49:01,458] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:04,485]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-10-22 18:49:02,887]  -------------------------- PASSED -------------------------- 
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:04,487] Post-condition - Close browser
+      <![CDATA[[INFO ] [2021-10-22 18:49:02,889] Post-condition - Close browser
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:05,623] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+      <![CDATA[[INFO ] [2021-10-22 18:49:04,892] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:12,628] Search - Step 01: Verify search box is displayed
+      <![CDATA[[INFO ] [2021-10-22 18:49:10,933] Search - Step 01: Verify search box is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:12,733] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+      <![CDATA[[INFO ] [2021-10-22 18:49:11,049] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:14,736] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+      <![CDATA[[INFO ] [2021-10-22 18:49:13,395] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:14,798]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-10-22 18:49:13,451]  -------------------------- PASSED -------------------------- 
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-10-21 23:38:14,799] Post-condition - Close browser
+      <![CDATA[[INFO ] [2021-10-22 18:49:13,452] Post-condition - Close browser
 ]]>
     </line>
   </reporter-output>
-  <suite name="Open Weather" duration-ms="24295" started-at="2021-10-21T16:37:51Z" finished-at="2021-10-21T16:38:15Z">
+  <suite name="Open Weather" duration-ms="23887" started-at="2021-10-22T11:48:50Z" finished-at="2021-10-22T11:49:14Z">
     <groups>
     </groups>
-    <test name="Run on Firefox" duration-ms="14171" started-at="2021-10-21T16:37:51Z" finished-at="2021-10-21T16:38:05Z">
+    <test name="Run on Firefox" duration-ms="14356" started-at="2021-10-22T11:48:50Z" finished-at="2021-10-22T11:49:04Z">
       <class name="openweather.user.User_Search">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:openweather.user.User_Search@27a5f880]" name="beforeClass" is-config="true" duration-ms="11200" started-at="2021-10-21T16:37:51Z" finished-at="2021-10-21T16:38:02Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:openweather.user.User_Search@27a5f880]" name="beforeClass" is-config="true" duration-ms="10398" started-at="2021-10-22T11:48:50Z" finished-at="2021-10-22T11:49:00Z">
           <params>
             <param index="0">
               <value>
@@ -70,48 +70,48 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:37:51,442] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+              <![CDATA[[INFO ] [2021-10-22 18:48:50,533] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Search()[pri:0, instance:openweather.user.User_Search@27a5f880]" name="Search" duration-ms="1842" started-at="2021-10-21T16:38:02Z" finished-at="2021-10-21T16:38:04Z">
+        <test-method status="PASS" signature="Search()[pri:0, instance:openweather.user.User_Search@27a5f880]" name="Search" duration-ms="1957" started-at="2021-10-22T11:49:00Z" finished-at="2021-10-22T11:49:02Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:02,644] Search - Step 01: Verify search box is displayed
+              <![CDATA[[INFO ] [2021-10-22 18:49:00,931] Search - Step 01: Verify search box is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:02,999] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+              <![CDATA[[INFO ] [2021-10-22 18:49:01,127] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:03,236] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+              <![CDATA[[INFO ] [2021-10-22 18:49:01,458] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:04,485]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-10-22 18:49:02,887]  -------------------------- PASSED -------------------------- 
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:openweather.user.User_Search@27a5f880]" name="cleanBrowser" is-config="true" duration-ms="1117" started-at="2021-10-21T16:38:04Z" finished-at="2021-10-21T16:38:05Z">
+        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:openweather.user.User_Search@27a5f880]" name="cleanBrowser" is-config="true" duration-ms="1990" started-at="2021-10-22T11:49:02Z" finished-at="2021-10-22T11:49:04Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:04,487] Post-condition - Close browser
+              <![CDATA[[INFO ] [2021-10-22 18:49:02,889] Post-condition - Close browser
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- cleanBrowser -->
       </class> <!-- openweather.user.User_Search -->
     </test> <!-- Run on Firefox -->
-    <test name="Run on Chrome" duration-ms="10105" started-at="2021-10-21T16:38:05Z" finished-at="2021-10-21T16:38:15Z">
+    <test name="Run on Chrome" duration-ms="9519" started-at="2021-10-22T11:49:04Z" finished-at="2021-10-22T11:49:14Z">
       <class name="openweather.user.User_Search">
-        <test-method status="PASS" signature="cleanDriverInstance()[pri:0, instance:openweather.user.User_Search@34cd072c]" name="cleanDriverInstance" is-config="true" duration-ms="8" started-at="2021-10-21T16:37:51Z" finished-at="2021-10-21T16:37:51Z">
+        <test-method status="PASS" signature="cleanDriverInstance()[pri:0, instance:openweather.user.User_Search@34cd072c]" name="cleanDriverInstance" is-config="true" duration-ms="7" started-at="2021-10-22T11:48:50Z" finished-at="2021-10-22T11:48:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDriverInstance -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:openweather.user.User_Search@34cd072c]" name="beforeClass" is-config="true" duration-ms="7004" started-at="2021-10-21T16:38:05Z" finished-at="2021-10-21T16:38:12Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:openweather.user.User_Search@34cd072c]" name="beforeClass" is-config="true" duration-ms="6041" started-at="2021-10-22T11:49:04Z" finished-at="2021-10-22T11:49:10Z">
           <params>
             <param index="0">
               <value>
@@ -126,35 +126,35 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:05,623] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+              <![CDATA[[INFO ] [2021-10-22 18:49:04,892] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Search()[pri:0, instance:openweather.user.User_Search@34cd072c]" name="Search" duration-ms="2170" started-at="2021-10-21T16:38:12Z" finished-at="2021-10-21T16:38:14Z">
+        <test-method status="PASS" signature="Search()[pri:0, instance:openweather.user.User_Search@34cd072c]" name="Search" duration-ms="2518" started-at="2021-10-22T11:49:10Z" finished-at="2021-10-22T11:49:13Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:12,628] Search - Step 01: Verify search box is displayed
+              <![CDATA[[INFO ] [2021-10-22 18:49:10,933] Search - Step 01: Verify search box is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:12,733] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+              <![CDATA[[INFO ] [2021-10-22 18:49:11,049] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:14,736] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+              <![CDATA[[INFO ] [2021-10-22 18:49:13,395] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:14,798]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-10-22 18:49:13,451]  -------------------------- PASSED -------------------------- 
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:openweather.user.User_Search@34cd072c]" name="cleanBrowser" is-config="true" duration-ms="929" started-at="2021-10-21T16:38:14Z" finished-at="2021-10-21T16:38:15Z">
+        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:openweather.user.User_Search@34cd072c]" name="cleanBrowser" is-config="true" duration-ms="960" started-at="2021-10-22T11:49:13Z" finished-at="2021-10-22T11:49:14Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-10-21 23:38:14,799] Post-condition - Close browser
+              <![CDATA[[INFO ] [2021-10-22 18:49:13,452] Post-condition - Close browser
 ]]>
             </line>
           </reporter-output>

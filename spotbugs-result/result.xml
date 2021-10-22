@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.1.3" sequence="0" timestamp="1634903450351" analysisTimestamp="1634903447394" release="">
+  <Project projectName="Test_NAB[Test_NAB]">
+    <Jar>D:\Test_NAB\target\classes\commons\AbstractPage.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\commons\BaseTest$BROWSER.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\commons\BaseTest.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\commons\GlobalConstants.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\pageObject\HomePageObject.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\pageObject\UserPageGeneratorManager.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\pageUIs\HomePageUI.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\reportConfig\MethodListener.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\reportConfig\TestNGAppender.class</Jar>
+    <Jar>D:\Test_NAB\target\classes\reportConfig\VerificationFailures.class</Jar>
+    <Jar>D:\Test_NAB\target\test-classes\openweather\user\User_Search.class</Jar>
+    <AuxClasspathEntry>D:/Test_NAB/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:/Test_NAB/target/test-classes</AuxClasspathEntry>
+    <SrcDir>D:/Test_NAB/src/test/java</SrcDir>
+    <SrcDir>D:/Test_NAB/src/test/resources</SrcDir>
+    <SrcDir>D:/Test_NAB/src/main/java</SrcDir>
+    <SrcDir>D:/Test_NAB/src/main/resources</SrcDir>
+  </Project>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" instanceHash="abed0dd57026c15a6b9888bb42e4610a" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field: should this field be static?</ShortMessage>
+    <LongMessage>Unread field: commons.AbstractPage.longTimeout; should this field be static?</LongMessage>
+    <Class classname="commons.AbstractPage" primary="true">
+      <SourceLine classname="commons.AbstractPage" sourcefile="AbstractPage.java" sourcepath="commons/AbstractPage.java" relSourcepath="main\java\commons\AbstractPage.java">
+        <Message>In AbstractPage.java</Message>
+      </SourceLine>
+      <Message>In class commons.AbstractPage</Message>
+    </Class>
+    <Field classname="commons.AbstractPage" name="longTimeout" signature="J" isStatic="false" primary="true">
+      <SourceLine classname="commons.AbstractPage" sourcefile="AbstractPage.java" sourcepath="commons/AbstractPage.java" relSourcepath="main\java\commons\AbstractPage.java">
+        <Message>In AbstractPage.java</Message>
+      </SourceLine>
+      <Message>Field commons.AbstractPage.longTimeout</Message>
+    </Field>
+    <SourceLine classname="commons.AbstractPage" primary="true" start="44" end="44" startBytecode="8" endBytecode="8" sourcefile="AbstractPage.java" sourcepath="commons/AbstractPage.java" relSourcepath="main\java\commons\AbstractPage.java">
+      <Message>At AbstractPage.java:[line 44]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="323def01a5686b175fb439bac285f302" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method names should start with a lower case letter</ShortMessage>
+    <LongMessage>The method name openweather.user.User_Search.Search() doesn&apos;t start with a lower case letter</LongMessage>
+    <Class classname="openweather.user.User_Search" primary="true">
+      <SourceLine classname="openweather.user.User_Search" sourcefile="User_Search.java" sourcepath="openweather/user/User_Search.java" relSourcepath="test\java\openweather\user\User_Search.java">
+        <Message>In User_Search.java</Message>
+      </SourceLine>
+      <Message>In class openweather.user.User_Search</Message>
+    </Class>
+    <Method classname="openweather.user.User_Search" name="Search" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="openweather.user.User_Search" start="24" end="30" startBytecode="0" endBytecode="134" sourcefile="User_Search.java" sourcepath="openweather/user/User_Search.java" relSourcepath="test\java\openweather\user\User_Search.java"/>
+      <Message>In method openweather.user.User_Search.Search()</Message>
+    </Method>
+    <SourceLine classname="openweather.user.User_Search" start="24" end="30" startBytecode="0" endBytecode="134" sourcefile="User_Search.java" sourcepath="openweather/user/User_Search.java" relSourcepath="test\java\openweather\user\User_Search.java" synthetic="true">
+      <Message>At User_Search.java:[lines 24-30]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugPattern type="SS_SHOULD_BE_STATIC" abbrev="SS" category="PERFORMANCE">
+    <ShortDescription>Unread field: should this field be static?</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This class contains an instance final field that
+   is initialized to a compile-time static value.
+   Consider making the field static.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="NM_METHOD_NAMING_CONVENTION" abbrev="Nm" category="BAD_PRACTICE">
+    <ShortDescription>Method names should start with a lower case letter</ShortDescription>
+    <Details><![CDATA[
+
+  <p>
+Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SS">
+    <Description>Unread field should be static</Description>
+  </BugCode>
+  <BugCode abbrev="Nm">
+    <Description>Confusing method name</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 22 Oct 2021 18:50:44 +0700" total_classes="11" referenced_classes="87" total_bugs="2" total_size="216" num_packages="5" java_version="11.0.11" vm_version="11.0.11+9-b1504.13" cpu_seconds="72.98" clock_seconds="82.09" peak_mbytes="1168.72" alloc_mbytes="1010.00" gc_seconds="0.56" priority_2="2">
+    <FileStats path="commons/AbstractPage.java" bugCount="1" size="27" bugHash="5520f506df8446bbbc1c4c57657489d5"/>
+    <FileStats path="commons/BaseTest.java" bugCount="0" size="69"/>
+    <FileStats path="commons/GlobalConstants.java" bugCount="0" size="5"/>
+    <FileStats path="openweather/user/User_Search.java" bugCount="1" size="22" bugHash="2d55b0b6daf91ddf54a3d7426e0bae40"/>
+    <FileStats path="pageObject/HomePageObject.java" bugCount="0" size="17"/>
+    <FileStats path="pageObject/UserPageGeneratorManager.java" bugCount="0" size="6"/>
+    <FileStats path="pageUIs/HomePageUI.java" bugCount="0" size="5"/>
+    <FileStats path="reportConfig/MethodListener.java" bugCount="0" size="33"/>
+    <FileStats path="reportConfig/TestNGAppender.java" bugCount="0" size="14"/>
+    <FileStats path="reportConfig/VerificationFailures.java" bugCount="0" size="18"/>
+    <PackageStats package="commons" total_bugs="1" total_types="4" total_size="101" priority_2="1">
+      <ClassStats class="commons.AbstractPage" sourceFile="AbstractPage.java" interface="false" size="27" bugs="1" priority_2="1"/>
+      <ClassStats class="commons.BaseTest" sourceFile="BaseTest.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="commons.BaseTest$BROWSER" sourceFile="BaseTest.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="commons.GlobalConstants" sourceFile="GlobalConstants.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="openweather.user" total_bugs="1" total_types="1" total_size="22" priority_2="1">
+      <ClassStats class="openweather.user.User_Search" sourceFile="User_Search.java" interface="false" size="22" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="pageObject" total_bugs="0" total_types="2" total_size="23">
+      <ClassStats class="pageObject.HomePageObject" sourceFile="HomePageObject.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="pageObject.UserPageGeneratorManager" sourceFile="UserPageGeneratorManager.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="pageUIs" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="pageUIs.HomePageUI" sourceFile="HomePageUI.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="reportConfig" total_bugs="0" total_types="3" total_size="65">
+      <ClassStats class="reportConfig.MethodListener" sourceFile="MethodListener.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="reportConfig.TestNGAppender" sourceFile="TestNGAppender.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="reportConfig.VerificationFailures" sourceFile="VerificationFailures.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="1119" invocations="2" avgMicrosecondsPerInvocation="559974" maxMicrosecondsPerInvocation="887152" standardDeviationMicrosecondsPerInvocation="327178"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="521" invocations="540" avgMicrosecondsPerInvocation="966" maxMicrosecondsPerInvocation="66154" standardDeviationMicrosecondsPerInvocation="4439"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="220" invocations="546" avgMicrosecondsPerInvocation="404" maxMicrosecondsPerInvocation="30234" standardDeviationMicrosecondsPerInvocation="1808"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="91" invocations="87" avgMicrosecondsPerInvocation="1056" maxMicrosecondsPerInvocation="46818" standardDeviationMicrosecondsPerInvocation="5037"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="87" invocations="87" avgMicrosecondsPerInvocation="1003" maxMicrosecondsPerInvocation="78659" standardDeviationMicrosecondsPerInvocation="8377"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="78" invocations="87" avgMicrosecondsPerInvocation="897" maxMicrosecondsPerInvocation="16987" standardDeviationMicrosecondsPerInvocation="2288"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="72" invocations="467" avgMicrosecondsPerInvocation="154" maxMicrosecondsPerInvocation="28133" standardDeviationMicrosecondsPerInvocation="1403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="68" invocations="178" avgMicrosecondsPerInvocation="386" maxMicrosecondsPerInvocation="13137" standardDeviationMicrosecondsPerInvocation="1161"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
