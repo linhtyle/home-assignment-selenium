@@ -275,3 +275,23 @@
 [INFO ] [2021-10-22 20:39:21,379] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
 [INFO ] [2021-10-22 20:39:23,513] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
 [INFO ] [2021-10-22 20:39:23,586] Post-condition - Close browser
+[INFO ] [2021-10-24 11:37:07,510] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-24 11:37:19,173] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-24 11:37:19,365] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-24 11:37:19,722] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-24 11:37:21,021] Post-condition - Close browser
+[INFO ] [2021-10-24 11:37:23,251] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-24 11:37:33,387] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-24 11:37:33,500] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-24 11:37:35,428] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-24 11:37:35,617] Post-condition - Close browser
+[INFO ] [2021-10-24 11:40:45,128] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-24 11:40:56,875] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-24 11:40:57,094] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-24 11:40:57,373] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-24 11:40:58,769] Post-condition - Close browser
+[INFO ] [2021-10-24 11:40:59,930] Pre-condition - Step 01: Open browser and navigate to https://openweathermap.org/
+[INFO ] [2021-10-24 11:41:07,701] Search - Step 01: Verify search box is displayed
+[INFO ] [2021-10-24 11:41:07,808] Search - Step 02: Input to the search box with 'Ho Chi Minh city' keyword
+[INFO ] [2021-10-24 11:41:10,218] Search - Step 03: Verify 'Thanh pho Ho Chi Minh, VN' is displayed
+[INFO ] [2021-10-24 11:41:10,290] Post-condition - Close browser
